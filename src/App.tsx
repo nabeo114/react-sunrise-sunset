@@ -117,9 +117,9 @@ const App: React.FC = () => {
     <Box sx={{ display: "flex", flexDirection: "column", height: "100vh" }}>
       {/* ヘッダーと説明文 */}
       <Box sx={{ padding: 3 }}>
-        <Typography variant="h4" align="center" gutterBottom>Map and Sunrise/Sunset Info</Typography>
+        <Typography variant="h4" align="center" gutterBottom>Map & Sunrise/Sunset</Typography>
         <Typography variant="body1" align="center" paragraph>
-          You can click anywhere on the map to place a marker and retrieve sunrise, sunset, solar noon, and day length for that location.
+          Click or tap the map to get sunrise, sunset, and day info.
         </Typography>
       </Box>
 
